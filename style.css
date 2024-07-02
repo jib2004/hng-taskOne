@@ -64,6 +64,21 @@ main ul li span:nth-child(1){
     font-weight: 600;
 }
 
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    list-style: none;
+}
+
 
 @media (max-width:768px) {
     header{
@@ -91,6 +106,10 @@ main ul li span:nth-child(1){
 
     main ul li{
         width: auto;
+    }
+
+    footer ul{
+        gap: 5px;
     }
 
 }
